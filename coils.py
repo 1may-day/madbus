@@ -61,7 +61,6 @@ if __name__ == '__main__':
     parser.add_argument('--on', dest='turn_on',
                         action='store_const', const=True,
                         help='turn on coils')
-    parser.print_help()
     args = parser.parse_args()
 
     if args.host and args.port:
@@ -71,3 +70,5 @@ if __name__ == '__main__':
                         uid=args.uid)
         else:
             read_states(args.host, args.port, uid=args.uid)
+    else:
+        parser.print_help()
