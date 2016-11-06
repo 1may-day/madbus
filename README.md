@@ -1,7 +1,7 @@
 madbus
 ======
 
-This is a console tool for coil states managing via [https://en.wikipedia.org/wiki/Modbus](modbus) protocol.
+This is a console tool for coil states managing via [modbus](https://en.wikipedia.org/wiki/Modbus) protocol.
 
 Examples:
 ---------
